@@ -62,7 +62,7 @@ const Home = () => {
 		<div className="container flex justify-content-center">
 			<div className="bg-black text-center col-1 poste mx-auto ">
 			</div>
-			<div className="bg-black col-3 p-1 rounded semaforo mx-auto ">
+			<div className="bg-black col-2 p-1 rounded semaforo mx-auto ">
 				<div className={"rounded-circle bg-danger m-1 p-2 largo " + ligthRed + Violeta} onClick={selectRed} ></div>
 				<div className={"rounded-circle bg-warning m-1 p-2 largo " + ligthYellow + Violeta } onClick={selectYellow}></div>
 				<div className={"rounded-circle bg-success m-1 p-2 largo " + ligthGreen + Violeta} onClick={selectGreen}></div>
